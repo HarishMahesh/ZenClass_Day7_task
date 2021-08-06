@@ -38,7 +38,7 @@ function har() {
       
     if (true) {
         let c = 'Vijay'; // Legal Shadowing
-        //var d = 'Vijay'; // Illegal Shadowing
+        var d = 'Vijay'; // Illegal Shadowing
         console.log(c); // It will print 'GeeksforGeeks'
         console.log(d); // It will print error
     }
